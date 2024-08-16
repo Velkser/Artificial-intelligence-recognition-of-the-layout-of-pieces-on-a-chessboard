@@ -453,7 +453,6 @@ def is_valid_chess_move(start, end, model1, model2, image_folder):
 # ds_val_second = ds_val_second.batch(batch_size)
 # ds_test_second = ds_test_second.batch(batch_size)
 
-
 # #!The part that is responsible for testing already trained models
 
 # model1 = load_keras_model("first_model.keras")
